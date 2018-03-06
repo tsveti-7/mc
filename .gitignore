@@ -4,3 +4,4 @@ solution/
 *.x
 plot.dat
 *.mod
+*.pyc
