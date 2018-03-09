@@ -1,8 +1,9 @@
 import constants as const
 import sys, getopt
+import math
 import numpy as np
 import time
-import math
+
 
 def main(argv):
   num_e = 1000
