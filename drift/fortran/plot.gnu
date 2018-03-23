@@ -8,6 +8,6 @@ set size square
 
 datafile = 'trajectory.dat'
 #stats datafile
-STATS_blocks=10
-plot for [IDX=1:STATS_blocks] datafile index (IDX-1) u 4:2 w lp ps 0.5 pt 7 notitle
+STATS_blocks=1000
+plot for [IDX=1:STATS_blocks] datafile index (IDX-1) u 4:2 w lp ps 0.5 pt 7 lt 1 notitle
 pause -1
