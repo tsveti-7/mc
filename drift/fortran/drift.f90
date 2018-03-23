@@ -7,7 +7,7 @@ program drift
 ! Electric field strength [V/m]
   double precision, parameter :: efield = 500.
 ! Collision frequensy [Hz]
-  double precision, parameter :: colf = 1.d9
+  double precision, parameter :: colf = 1.d7
 ! Target width [m]
   double precision, parameter :: zend = 0.2
 ! Number of nuclons in the nucleus [Neon n = 20]
